@@ -13,6 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PerhitunganPersegi"
         tools:targetApi="31">
+        <activity android:name=".PersegiAdapter"
+            android:exported="false"
+            tools:ignore=",Instantiatable"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
